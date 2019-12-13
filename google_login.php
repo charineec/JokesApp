@@ -7,13 +7,13 @@ require_once('vendor/autoload.php');
 
 $client_id = '954573570749-utprnqh2dpfq3c19jm201e0o48hltejh.apps.googleusercontent.com';
 $client_secret ='Yd0w0_1wyhY7fke_E-xvZnhn';
-$redirect_uri = 'http://localhost/JokesApp/google_login.php';
+$redirect_uri = 'https://jokes-app2.herokuapp.com/google_login.php';
 
 
-$db_username = 'root';
-$db_password = '';
-$host_name = 'localhost';
-$db_name = 'test';
+$db_username = 'lnjjd7vwmaevgbme';
+$db_password = 'ey88qokxt9u0puh2';
+$host_name = 'hcm4e9frmbwfez47.cbetxkdyhwsb.us-east-1.rds.amazonaws.com';
+$db_name = 'cqtmudibtr2hlsee';
 
 $client = new Google_Client();
 $client->setClientId($client_id);
